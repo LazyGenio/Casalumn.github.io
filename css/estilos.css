@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Quicksand", sans-serif;
+    src: url(../assets/fonts/Quicksand-VariableFont_wght.ttf);
+}
+/*selector universal*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box ;
+}
+
+
+body {
+    background: white;
+    font-family: "Quicksand", sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+/*Color Fondo Principal (header y footer)*/
+.headerStiles{
+    background-color: blue ;
+    margin:  0px;
+    padding: 0px;
+    position: sticky;
+    top : 0px;
+}
+
+.linknav{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration:none;
+    font-size: 1.4rem;
+    margin: 10px;
+    width: 50px;
+    height:25px;
+}
+.tituloIndex1{
+    font-family:"Quicksand",serif;
+}   
+/*.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    display: flex;
+    overflow: hidden
+}
+.swiper-wraper {
+    width: 100%;  
+    text-align: center;
+    overflow:hidden
+  }
+  
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+    float: left;*/
+
+.slider{
+    width: 100%;
+    height: 900 px;
+    margin: auto;
+}
+
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 400%;
+
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 50%;
+
+}
